@@ -40,6 +40,6 @@ which nvidia-container-runtime-hook
 When the GPU processing is enabled, you can use the following command to run the Docker image with the GPU enabled:
 
 ```bash
-docker run --rm -it --gpus all --device /dev/dri -p 7164:7164 -p 2303:2303 -p 1905:1905 -p 8765:8765 -p 6080:6080 -p 1108:1108 -p 7163:7163 jderobot/robotics-academy
+docker run --rm -it --gpus all --device /dev/dri -p 7164:7164 -p 2303:2303 -p 1905:1905 -p 8765:8765 -p 6080:6080 -p 1108:1108 -p 7163:7163 jderobot/robotics-academy:4.4.31
 ```
 
