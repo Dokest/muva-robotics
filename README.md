@@ -23,6 +23,9 @@ After the image is downloaded and installed, you can run it using:
 docker run --rm -it -p 7164:7164 -p 2303:2303 -p 1905:1905 -p 8765:8765 -p 6080:6080 -p 1108:1108 -p 7163:7163 jderobot/robotics-academy:4.4.31
 ```
 
+When the image is running, access `127.0.0.1:7164/` in your local machine to open the application.
+> The application is known to be working on Firefox and Chrome. But it does not work on Brave.
+
 ### Enable GPU processing (NVIDIA)
 To enable GPU processing in NVIDIA cards, download the `NVIDIA Container Runtime` from the following [link](https://nvidia.github.io/nvidia-container-runtime/).
 Then run this command:
