@@ -8,7 +8,7 @@
 ### Docker
 > Make sure you have Docker and WSL2 (in case of Windows) installed and working.
 
-After installing Docker Desktop, make sure the WSL2 integration is ready by enabling this toggle option.
+After installing Docker Desktop, make sure the WSL2 integration is ready by enabling this toggle option in the Docker Desktop settings.
 ![image](https://github.com/Dokest/muva-robotics/assets/35165785/2eb46b97-a4ab-4337-a67f-20d92310922a)
 
 
